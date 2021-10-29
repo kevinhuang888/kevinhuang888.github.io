@@ -1,0 +1,70 @@
+*{
+    font-family: "Tenor Sans";
+    font-weight: 550;
+    background-color: beige;
+}
+
+
+header .main-text{   
+    text-align: center;
+    margin-top:160px;
+}
+header .bar{
+    width:95.5%;
+}
+
+header .bar nav{
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul{
+    margin-left:831.5px;
+    margin-top:40px;
+    display:flex;
+}
+
+nav li {
+    padding-left: 3.5rem;
+    list-style-type: none;
+  }
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+
+h3{
+    font-size: 1.28rem;
+}
+
+#links{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+}
+
+a:link{
+    color:black;
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover{
+  color: rgb(22, 98, 185);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+    color: rgb(180, 38, 104);
+    background-color: transparent;
+    text-decoration: underline;
+  }

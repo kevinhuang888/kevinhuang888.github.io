@@ -1,0 +1,123 @@
+*{
+    font-family: "Tenor Sans";
+    font-weight: 550;
+    color:white;    
+}
+
+html{
+    background-image: linear-gradient(to right, rgb(0, 102, 82),rgb(60, 25, 77) 70%);
+    margin:0;
+}
+
+header nav #logo{
+    font-size:1.5rem;
+    padding:25px;
+}
+
+header{
+    width:95.5%;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+
+header .bar nav ul{
+    display: flex;
+    justify-content: right;
+}
+/*
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+    header nav ul{
+        margin-left:500px;
+        margin-top:40px;
+        display:flex;
+    }
+    
+    header nav #logo{
+        font-size:1.5rem;
+        padding:25px;
+    }
+}
+*/
+header nav ul{
+    margin-top:40px;
+    display:flex;
+}
+
+nav li {
+    padding-left: 3.5rem;
+    list-style-type: none;
+}
+
+header nav #logo{
+    font-weight: 600;
+}
+
+a:link{
+    color:white;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bar ul a:link{
+    color:white;
+    background-color: transparent; 
+    text-decoration: none;
+}
+.bar ul a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.bar ul a:hover{
+  color: bisque;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.bar ul a:active {
+    color: bisque;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.content{
+    margin-top:140px;
+    display:flex;
+    justify-content: center;
+}
+
+.itembox{
+    display:flex;
+    align-content: space-between;
+}
+
+.itembox ul a:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.itembox h2{
+    font-size:1.7rem;
+}
+
+.itembox ul li{
+    padding:10px;
+    list-style-type: none;
+}
+
+.itembox p{
+    font-size: 0.9rem;
+}

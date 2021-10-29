@@ -1,0 +1,134 @@
+*{
+    font-family: "Tenor Sans", "Arial";
+    font-weight: 550,3;
+    background-color: bisque;
+}
+
+html{
+    font-display: optional;
+}
+
+header nav #logo{
+    font-size:1.5rem;
+    padding:25px;
+}
+
+header{
+    width:95.5%;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+
+header .bar nav ul{
+    display: flex;
+    justify-content: right;
+}
+/*
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+    header nav ul{
+        margin-left:500px;
+        margin-top:40px;
+        display:flex;
+    }
+    
+    header nav #logo{
+        font-size:1.5rem;
+        padding:25px;
+    }
+}
+*/
+header nav ul{
+    margin-top:40px;
+    display:flex;
+}
+
+nav li {
+    padding-left: 3.5rem;
+    list-style-type: none;
+}
+
+header nav #logo{
+    font-weight: 600;
+}
+
+
+a:link{
+    color:black;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bar ul a:link{
+    color:black;
+    background-color: transparent; 
+    text-decoration: none;
+}
+.bar ul a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.bar ul a:hover{
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.bar ul a:active {
+    color: rgb(99, 16, 110);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+#content{
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+    margin-top:105px;
+}
+
+#content .img-container{
+    width: 49%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.profileimgholder{
+    width:78%;
+    margin-right:50px;
+}
+
+.profileimgholder figcaption{
+    margin-top:10px;
+    text-align: center;
+}
+
+#profilepic{
+    width:100%;
+    height:100%;
+    border-radius: 4px;
+}
+
+.aboutme_desc{
+    font-size: 1.2rem;
+    padding: 0 50px;
+    margin-right:80px;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 150%;
+}
